@@ -66,11 +66,22 @@
         android:background="@drawable/rounded_button"
         android:text="@string/LastResults" />
 
+    <Button
+        android:id="@+id/btnGoogleApps"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/rounded_button"
+        android:text="@string/MyApps" />
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adViewMain"
         ads:adSize="BANNER"
         android:layout_margin="6dp"
-        ads:adUnitId="@string/banner_ad_unit_TESTE"
+        ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
